@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root{
+    --primary-color: rgb(26, 202, 202)
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans';
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto 0;
+    background: #fff;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border-radius: 50px; */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input :focus{
+    outline: 1px solid blue;
+    
+}
+
+form button{
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    height: 50px;
+}
+
+
+table{
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    width: 50%;
+}
+
+.paragrafo-resultado, .bad{
+    background-color: rgba(92, 221, 200, 0.705);
+    padding: 10px 20px;
+}
+
+.bad{
+    background-color: rgba(248, 116, 116, 0.726);
+}
